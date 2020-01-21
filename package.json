@@ -1,6 +1,6 @@
 {
   "name": "cat-gif",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Place a cat gif on your web log",
   "main": "cat-gif.js",
   "scripts": {

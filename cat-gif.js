@@ -3,7 +3,6 @@ class CatGif extends HTMLElement {
     super();
     this._images;
     this._catgif;
-    this._keyword;
     this.attachShadow({ mode: 'open'});
     this.shadowRoot.innerHTML = `
       <style>
