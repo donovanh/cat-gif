@@ -48,7 +48,7 @@ class CatGif extends HTMLElement {
     if (this.getAttribute('keyword')) {
       keywords += ` ${this.getAttribute('keyword')}`;
     }
-    const url = `http://api.giphy.com/v1/gifs/search?api_key=${key}&q=${encodeURI(keywords)}`;
+    const url = `${window.location.protocol}//api.giphy.com/v1/gifs/search?api_key=${key}&q=${encodeURI(keywords)}`;
     const result = await fetch(url);
     const JSONresult = await result.json();
     this._images = JSONresult.data.map(item => item.images.original.url)
