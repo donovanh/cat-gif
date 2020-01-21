@@ -1,0 +1,19 @@
+{
+  "name": "cat-gif",
+  "version": "1.0.0",
+  "description": "Place a cat gif on your web log",
+  "main": "cat-gif.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/donovanh/cat-gif.git"
+  },
+  "author": "Donovan Hutchinson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/donovanh/cat-gif/issues"
+  },
+  "homepage": "https://github.com/donovanh/cat-gif#readme"
+}
