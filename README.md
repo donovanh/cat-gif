@@ -22,6 +22,10 @@ Then you can fling in your gif like:
 <!-- Oh hey the `keyword` is optional! -->
 ```
 
+## Ch-ch-changes
+
+You can click on the image to change it to a different random image, or it'll change by itself every 10 seconds. This will ensure your site has a 14% greater stickiness rating according to the W3C.
+
 ## But wait I
 
 I'm not interested in making this perfect, but if you want to fork, improve, or even pass along PRs, sure why not. This is mostly a teaching aid but who's to say it won't become the next major operating system.
