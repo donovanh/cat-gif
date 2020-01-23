@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cat gif demo page</title>
+    <script src="https://unpkg.com/cat-gif-stencil@0.0.1/dist/cat-gif-stencil/cat-gif-stencil.js"></script>
+</head>
+<body>
+  
+  <input id="keywords" onChange="updateKeywords(this.value)" type="text" placeholder="Keywords" />
+  <hr>
+  <cat-gif keyword="" id="first"></cat-gif>
+
+  
+  <script>
+    // Interact from outside the custom element!
+    const gif = document.querySelector('#first');
+
+    function updateKeywords(keywords) {
+      gif.setAttribute('keyword', keywords);
+    }
+  </script>
+</body>
+</html>
