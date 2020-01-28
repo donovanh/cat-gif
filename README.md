@@ -10,8 +10,16 @@ Because sometimes when you're surfing the information superhighway you need a li
 
 ## Demo
 
-<script src="./cat-gif.js"></script>
-<cat-gif keyword="space"></cat-gif>
+<!--
+```
+<custom-element-demo>
+  <script src="https://unpkg.com/cat-gif"></script>
+  <template>
+    <link rel="import" href="./index.html" />
+    <cat-gif keyword="space"></cat-gif>
+  </template>
+</custom-element-demo>
+-->
 
 ## Usage
 
