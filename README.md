@@ -1,3 +1,5 @@
+[![Published on webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg)](https://www.webcomponents.org/element/owner/my-element)
+
 # Cat gif
 
 Because sometimes when you're surfing the information superhighway you need a little help from a cat gif. This is a custom element you can use like:
@@ -5,6 +7,11 @@ Because sometimes when you're surfing the information superhighway you need a li
 ```
 <cat-gif></cat-gif>
 ```
+
+## Demo
+
+<script src="./cat-gif.js"></script>
+<cat-gif keyword="space"></cat-gif>
 
 ## Usage
 
@@ -24,7 +31,7 @@ Then you can fling in your gif like:
 
 ## Ch-ch-changes
 
-You can click on the image to change it to a different random image, or it'll change by itself every 10 seconds. This will ensure your site has a 14% greater stickiness rating according to the W3C.
+You can click on the image to change it to a different random image. This will ensure your site has a 14% greater stickiness rating according to the W3C.
 
 ## But wait I
 
