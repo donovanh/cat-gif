@@ -12,6 +12,17 @@ Because sometimes when you're surfing the information superhighway you need a li
 
 [Cat gif demo page](https://hop.ie/cat-gif)
 
+<!--
+```
+<custom-element-demo>
+  <script src="https://unpkg.com/cat-gif"></script>
+  <template>
+    <link rel="import" href="./index.html" />
+    <cat-gif keyword="space"></cat-gif>
+  </template>
+</custom-element-demo>
+-->
+
 ## Usage
 
 You'll want to add the JavaScript that tells your web surfer what a `cat-gif` even is. In the `head` make sure to zerb in:
